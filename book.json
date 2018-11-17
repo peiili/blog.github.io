@@ -1,0 +1,70 @@
+{
+    "title" : "一个切图师的成长日记",
+    "author" : "peiili",
+    "description" : "记录学习路程的知识点",
+    "language" : "zh-hans",
+    "gitbook" : "3.2.2",
+    "gitbook" : ">=3.0.0",
+    "root": ".",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://dlsjf.top"
+        }
+    },
+    "styles": {
+       
+    },
+    "plugins": [
+        "github@^2.0.0",
+        "edit-link@^2.0.2",
+        "anchors@^0.7.1",
+        "include-codeblock@^3.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters-small@^0.1.7",
+        "anchor-navigation-ex@0.1.8",
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size":  1
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/peiili/blog.github.io"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © peiili 2018",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "edit-link": {
+            "base": "https://github.com/peiili/blog.github.io/edit/master",
+            "label": "编辑当前页"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        }
+    }
+}
